@@ -160,10 +160,10 @@ class B(A):
 
 # type主要用于获取未知变量的类型，type()不会认为子类是一种父类类型。
 # isinstance主要用于判断A类是否继承于B类，isinstance()会认为子类是一种父类类型。
-print(type(A()) == A)
-print(isinstance(A(), A))
-print(type(B()) == A)
-print(isinstance(B(), A))
+# print(type(A()) == A)
+# print(isinstance(A(), A))
+# print(type(B()) == A)
+# print(isinstance(B(), A))
 
 
 
